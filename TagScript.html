@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibindo coisas em JavaScript</title>
+</head>
+<body>
+    <h2><u>Aqui vou treinar sobre a tag "Script"</h2></u>
+    <p id="t1"></p><hr><!--o java Script vai acrescentar texto dentro das tags-->
+    <script>
+        document.getElementById("t1").innerHTML = "Hello world form JavaScript";
+    </script>
+
+    <!--Eventos em JavaScript-->
+    <h2>Aqui vou tentar fazer alguns eventos</h2>
+    <p id="t2"></p>
+    <script src="TagScript.js"></script> <!--Aqui foi inserido um texto desta folha externa--><hr>
+
+    <!--Inserindo mais coisas com o innerHTML-->
+    <h2>Vem mais coisa agora</h2>
+    <p id="t3"></p>
+        <script>
+            document.getElementById("t3").innerHTML = "Eu disse que vinha mais coisas";
+        </script><hr>
+
+    <!--Inserindo coisas com o document.write-->
+    <h2>Esse e com o "document.write"</h2>
+    <p id="t4">Esse daqui vai ser pra usar o documet write</p>
+        <script>
+            document.write("Mais coisas aqui!");
+        </script>
+    <hr>
+
+    <!--Usando o window alert para mostrar coisas-->
+    <h2>Usando o window alert</h2>
+    <p>Aqui vai o window alert</p> <!--essa funcao faz a soma de valores-->
+    <script>
+        window.alert(5 + 8);
+    </script>
+    <!--pode se pular o alert so colocando o alert-->
+    <hr>
+
+    <!---->
+
+    <!--Usando a funcao console.log()-->
+    <h2>Usando a funcao print</h2>
+    <p>Aqui vai a o console log</p>
+    <script>
+        console.log("Hello world again my dear!");
+    </script>
+    <hr>
+
+    <!--Usando a funcao widow.print-->
+    <h2>Agora aqui vai a funcao window.print</h2>
+    <p>Segue o conteudo</p>
+    <button onclick="window.print()">Imprimir!</button> <!--essa funcao faz com que a tela fique pronta para a impressao-->
+    <hr>
+</body>
+</html>
