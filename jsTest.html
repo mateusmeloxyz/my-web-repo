@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Estudando JavaScript</title>
+</head>
+<body>
+    <!--Esse scritp serve para mudar o texto quando clicado no botao-->
+    <h2>Clicando no botao o texto muda</h2>
+    <p id="t1">Espero que voce consiga aprender Java Scipt por aqui.</p>
+    <button type="button" onclick='document.getElementById("t1").innerHTML = "Boa sorte!"'>Click Me!</button><hr>
+    
+    <!--Tentando usar o getElementById com minhas ideias-->
+    <h2>Agora vai</h2>
+    <p id="t2">Acho que agora tem como mudar po</p>
+    <button type="button" onclick='document.getElementById("t2").innerHTML = "Foi!"'>Clica Macho vei</button><hr>
+
+    <!--Alterando atributos com JS com a funcao style.fontSyze-->
+    <h2>Vamos mudar atributos</h2>
+    <p id="t3">Isso vai ficar grande</p>
+    <button type="button" onclick='document.getElementById("t3").style.fontSize="50px"'>Vai ficar grande (La Ele)</button><hr>
+
+    <!--Escondendo elementos com com a funcao display-->
+    <h2>Se liga nessa resenha</h2>
+    <p id="t4">Agora voce ve...</p>
+    <button type="button" onclick='document.getElementById("t4").style.display = "none"'>...agora nao ve mais!</button>
+
+    <!--Exibindo elementos-->
+    <h2>Mostrando coisas</h2>
+    <p id="t5">Aqui vai aparecer um negoco...</p>
+    <p id="t5Auxi" style="display: none;">...muito grando rapaz!</p> <!--para se conseguir esse efeito deve-se mudar o style display para 'none'-->
+    <button type="button" onclick='document.getElementById("t5Auxi").style.display = "block"'>Achoooou!</button>
+</body>
+</html>
