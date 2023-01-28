@@ -4,72 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=>, initial-scale=1.0">
+    <!--aqui dentro vou trabalhar com seletores e com a folha do css dentro desse arquivo-->
+    <style type="text/css">
+        div {
+            margin: 12%;
+            font-family: 'Times New Roman', Times, serif;
+            font-;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .azul {
+            color: blue;
+        }
+
+        #id1 {
+            color: aqua;
+        }
+
+
+    </style>
     <title>Taberna do Meia Noite</title>
 </head>
 <body bgcolor="gray">
-    <h2><u>Bem vindos a taberna</h2></u>
-    <p><b>Aqui, pegue sua bebida e fique a vontade. O show ja vai comecar</b></p>
-    <p>Todos que vem ate mim e sempre em busca de um favor. Antes de pedir se faca as seguines perguntas
-        <ul>
-            <li><b>Porque eu deveria atender ao seu pedido?</b></li>
-            <li><b>O que voce pode me oferecer em troca dessa ajuda?</b></li>
-            <li><b>Que tipo e pessoas se prejudicariam com esse seu pedido?</b></li>
-            <li><b>Esse seu pedido vale apena o meu esforco?</b></li>
-        </ul>
-    <p>Se para alguma dessas perguntas a resposta for <i>"Nao"</i>ou<i>"Nao sei"</i>, e melhor que voce saia daqui enquanto tem tempo.</p><hr>
-    <h2><u>Quem somos nos.</u></h2>
-    <p style="color: red">A taberna Meia Noite foi criada com o intuito de proporcionar diversao a todos aqueles que entram no nosso espaco.
-        Independente de classe social, no oferecemos o nosso melhor para que voce se sinta bem no nosso espaco.
-    </p> <!--usando css direto no elemento-->
-    Nossos horarios sao:
-    <table border="1">
-        <tr><td>Segunda</td> <td>Terca</td> <td>Quarta</td> <td>Quinta</td> <td>Sexta</td> <td>Sabado</td></tr>
-        <tr><td>17:00pm - 03:00pm</td> <td>""</td> <td>""</td> <td>""</td> <td>""</td> <td>18:00 - 23:00</td></tr>
-    </table><br>
-    <img src="/imgens/visao-interna.jpeg">
-    <p style="color: blue">Nosso fundadores <i>Luchris Amaldov</i> e seu irmao <i>Ariatov "Midnight" Treven</i> vieram da Romenia, a nossa taberna tem sempre proporcionado experiencias <b><i>aquecer o sangue</i></b></p>
-    <h2><u>Me diga seu nome e de onde voce e, pedinte!</h2></u>
-    <form> <!--criando formularios-->
-        <b>Nome:</b><br>
-        <input type="text" name="nome"><br>
-        <br>
+    <div id="div1">
+        <h2><u>Bem vindos a taberna</h2></u>
+        <p><b>Aqui, pegue sua bebida e fique a vontade. O show ja vai comecar</b></p>
+        <p>Todos que vem ate mim e sempre em busca de um favor. Antes de pedir se faca as seguines perguntas
+            <ul>
+                <li><b>Porque eu deveria atender ao seu pedido?</b></li>
+                <li><b>O que voce pode me oferecer em troca dessa ajuda?</b></li>
+                <li><b>Que tipo e pessoas se prejudicariam com esse seu pedido?</b></li>
+                <li><b>Esse seu pedido vale apena o meu esforco?</b></li>
+            </ul>
+        <p>Se para alguma dessas perguntas a resposta for <i>"Nao"</i>ou<i>"Nao sei"</i>, e melhor que voce saia daqui enquanto tem tempo.</p><hr>
+        <h2><u>Quem somos nos.</u></h2>
+        <p>A taberna Meia Noite foi criada com o intuito de proporcionar diversao a todos aqueles que entram no nosso espaco.
+            Independente de classe social, no oferecemos o nosso melhor para que voce se sinta bem no nosso espaco.
+        </p> <!--usando css direto no elemento-->
+        Nossos horarios sao:
+        <table border="1">
+            <tr><td>Segunda</td> <td>Terca</td> <td>Quarta</td> <td>Quinta</td> <td>Sexta</td> <td>Sabado</td></tr>
+            <tr><td>17:00pm - 03:00pm</td> <td>""</td> <td>""</td> <td>""</td> <td>""</td> <td>18:00 - 23:00</td></tr>
+        </table><br>
+        <img title="Espaco do meia noite em Recife" src="/imgens/visao-interna.jpeg">
+        <p>Nosso fundadores <i>Luchris Amaldov</i> e seu irmao <i>Ariatov "Midnight" Treven</i> vieram da Romenia, a nossa taberna tem sempre proporcionado experiencias <b><i>aquecer o sangue</i></b></p>
+    </div>
+        <div class="azul"> <!--apliquei a classe azul dentro dessa div.-->
+        <h2><u>Me diga seu nome e de onde voce e, pedinte!</h2></u>
+        <form> <!--criando formularios-->
+            <b>Nome:</b><br>
+            <input type="text" name="nome"><br>
+            <br>
 
-        <b>Origem:</b><br>
-        <input type="text" name="origem"><br>
-        <br>
+            <b>Origem:</b><br>
+            <input type="text" name="origem"><br>
+            <br>
 
-        <b>A senha que lhe foi fornecida:</b><br>
-        <input type="password" name="senha"> <!--quando se usa o tipo password a senha e escondida;-->
-        <input type="submit" value="Enviar"> <!--usando submit o botao fica mais funcional-->
-    </form>
-    </p><hr>
-    <h2><u>Trabalhe conosco!</h2></u>
-    <form>
-        <b>Nome:</b><br>
-        <input type="text" name="login"><br>
-        <br>
+            <b>A senha que lhe foi fornecida:</b><br>
+            <input type="password" name="senha"> <!--quando se usa o tipo password a senha e escondida;-->
+            <input type="submit" value="Enviar"> <!--usando submit o botao fica mais funcional-->
+        </form>
+        </p><hr>
+    </div>
+    <div id="div3">
+        <h2 id="id1"><u>Trabalhe conosco!</h2></u>
+        <form>
+            <b>Nome:</b><br>
+            <input type="text" name="login"><br>
+            <br>
 
-        <b>Voce e:</b> <br>
-        <input type="radio" name="gen" value="m">Homem<br>
-        <input type="radio" name="gen" value="f">Mulher<br>
-        <br>
+            <b>Voce e:</b> <br>
+            <input type="radio" name="gen" value="m">Homem<br>
+            <input type="radio" name="gen" value="f">Mulher<br>
+            <br>
 
-        <b>Voce e bom em:</b><br> <!--topo do input checkbox-->
-        <select name="capacidades">
-            <option value="tecnologia">Tecnologia</option>
-            <option value="literatura">Literatura</option>
-            <option value="magia">Magia</option>
-            <option value="musica">Musica</option>
-            <option value="artes">Artes</option>
-            <option value="combate">Combate</option>
-            <option value="oratoria">Oratoria</option>
-        </select>
+            <b>Voce e bom em:</b><br> <!--topo do input checkbox-->
+            <select name="capacidades">
+                <option value="tecnologia">Tecnologia</option>
+                <option value="literatura">Literatura</option>
+                <option value="magia">Magia</option>
+                <option value="musica">Musica</option>
+                <option value="artes">Artes</option>
+                <option value="combate">Combate</option>
+                <option value="oratoria">Oratoria</option>
+            </select>
+            <hr>
+
+            <b>Observacoes:</b><br> <!--caixa de texto expansiva-->
+            <textarea></textarea>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+    <div>
+        <h2><u>Vamos fazer outras coisa agora</u></h2>
+        <p>Aquiu vai ficar alguns feedbacks dos nossos frequentadores. O objetivo dessa sessao
+            e deixar nosso leitores mais familiarizados com o que eles vao encontrar no nosso espaco.
+        </p>
         <hr>
-
-        <b>Observacoes:</b><br> <!--caixa de texto expansiva-->
-        <textarea></textarea>
-
-        <input type="submit" value="Cadastrar">
-    </form>
+    </div>
 </body>
 </html>
