@@ -1,15 +1,53 @@
 /*sessao de divs*/
 
 #header {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: small;
     margin: 5%;
+    background-image: url(/mainProject/imagens/inside-club.jpg);
+    height: 500px;
+    width: 1230px;
 }
 
+#menu {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    margin: 5%;
+    background-color: rgb(70, 12, 70);
+    color: white;
+}
+
+#fundadores {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    margin: 5%;
+    background-image: url(/mainProject/imagens/inside-club.jpg);
+    height: 500px;
+    width: 1230px;
+}
+
+#filosofia {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    margin: 5%;
+    background-image: url(/mainProject/imagens/inside-club.jpg);
+    height: 500px;
+    width: 1230px;
+}
+
+#footer {
+    text-align:end;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 50px;
+    margin: 5px;
+}
 /*editcoes avulsas*/
 
 h2{
     text-align: center;
+    font-stretch: wider;
+    text-decoration: underline;
 }
 
 p {
@@ -17,5 +55,9 @@ p {
 }
 
 a {
-    text-align: center;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
